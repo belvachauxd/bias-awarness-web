@@ -10,7 +10,7 @@ body {
   margin: 0;
   font-family: "Poppins";
   background-color: #f7ecff;
-  background-image: url("../public/images/equality.png");
+  background-image: url("../public/images/equalites.png");
   background-position: center;
   background-repeat: repeat-x;
 }
@@ -85,6 +85,10 @@ header a {
 }
 
 /* new article form */
+.input-field {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
 
 input,
 textarea {
@@ -165,10 +169,10 @@ form.signup, form.login {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background-color: #ffffff36;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-container h1 {
+  text-align: center;
 }
 
 .question-container {
@@ -181,6 +185,11 @@ form.signup, form.login {
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 540px; 
+  overflow-y: scroll;
+  text-align: left;
+  text-justify: inter-word;
+  line-height: 1.75; /* Adjust the spacing between lines */
 }
 
 .button-container {
@@ -191,4 +200,68 @@ form.signup, form.login {
 
 .button-container button:first-child {
   margin-right: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-column {
+  flex-basis: calc((100% - 960px)/1.63);
+  margin: 0 20px;
+}
+
+.left-column {
+  flex-basis: calc((100% - 960px)/1.5);
+  margin: 0 20px;
+}
+
+.left-column h3,
+.right-column h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.left-column p,
+.right-column p {
+  line-height: 1.5;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.quiz-container {
+  flex-basis: 480px;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.quiz-container h1 {
+  margin-bottom: 20px;
+}
+
+.quiz-page {
+  background-image: url("../public/images/equality_quiz.png");  
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.question-container label {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.question-container label input[type='radio'] {
+  margin-right: 10px;
+  line-height: 1.5;
+  flex-shrink: 0;
+}
+
+.question-container label span {
+  display: inline-block;
+  vertical-align: middle;
+  flex-grow: 1;
 }

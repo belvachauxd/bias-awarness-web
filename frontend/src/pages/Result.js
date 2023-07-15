@@ -18,7 +18,7 @@ function Result() {
   }, []);
 
   return (
-    <div>
+    <div style={{ textAlign: 'center' }}>
       <h1>Results</h1>
       <p>You got {numCorrect} out of {quizData.length} questions correct!</p>
       {incorrectAnswers.length > 0 && (

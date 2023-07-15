@@ -115,7 +115,7 @@ const quizData = [
       "options": [
         "A. Bias has no impact on workplace productivity.",
         "B. Bias can improve workplace productivity by providing a different perspective.",
-        "C. Bias can lead todecreased workplace productivity due to discrimination, exclusion, and demotivation of employees.",
+        "C. Bias can lead to decreased workplace productivity due to discrimination, exclusion, and demotivation of employees.",
         "D. Bias always leads to increased workplace productivity."
       ],
       "correct": 2
@@ -166,14 +166,14 @@ const quizData = [
       },
       {
         "id": 16,
-        "text": "What is ableism?",
+        "text": "Your manager consistently gives preferential treatment to employees who share their same hobbies and interests. What is the best way to address this favoritism in the workplace?",
         "options": [
-          "A. Discrimination against people with disabilities",
-          "B. Discrimination against people based on their nationality",
-          "C. Discrimination against people based on their political beliefs",
-          "D. Discrimination against people based on their religion"
+          "A. Start participating in the same hobbies and interests to gain favor.",
+          "B. Confront your manager in front of the favored employees.",
+          "C. Talk to your manager privately and express your concerns about the favoritism.",
+          "D. Ignore the situation and focus on your own work."
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 17,
@@ -199,23 +199,23 @@ const quizData = [
       },
       {
         "id": 19,
-        "text": "What is the difference between sex and gender?",
+        "text": "A male coworker consistently interrupts and talks over your female coworker during meetings. What is the best way to address this gender bias in the workplace?",
         "options": [
-          "A. Sex is biological, while gender is social and cultural.",
-          "B. Sex and gender are the same thing.",
-          "C. Sex is about identity, while gender is about expression.",
-          "D. Sex is a social construct, while gender is biological."
+          "A. Confront the male coworker during the meeting.",
+          "B. Talk to the female coworker and offer her support.",
+          "C. Ignore the situation and let them handle it themselves.",
+          "D. Bring up the issue with the male coworker privately and suggest better communication practices."
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 20,
-        "text": "What is the impact of microaggressions on mental health?",
+        "text": "Your colleague is consistently praised by your manager despite their poor performance. What is the best way to address this bias in the workplace?",
         "options": [
-          "A. Microaggressions have no impact on mental health.",
-          "B. Microaggressions can improve mental health by building resilience.",
-          "C. Microaggressions can lead to anxiety, depression, and other mental health problems.",
-          "D. Microaggressions always lead to better mental health outcomes."
+          "A. Confront your manager in front of your colleague.",
+          "B. Talk to your colleague about their poor performance.",
+          "C. Speak to your manager privately and provide feedback on your colleague's performance.",
+          "D. Ignore the situation and focus on your own work."
         ],
         "correct": 2
       }

@@ -1,8 +1,8 @@
 # senopia-bias-awarness-web
 Credit Suisse INSPIRE Women in Tech Project
 
-Unconscious bias has severely pressured individuals from different backgrounds, such as job-seeking and educational settings. can influence our work interactions and decision-making, 
-and if they are not addressed, they can have a negative effect on a company's atmosphere and team dynamics. 
+Unconscious bias has severely pressured individuals from different backgrounds, such as job-seeking and educational settings. 
+It can influence our work interactions and decision-making, and if they are not addressed, they can have a negative effect on a company's atmosphere and team dynamics. 
 Hence this platform can help the digital natives achieve greater awareness of their unconscious bias.
 
 Senopia is the 'improvement of near vision sometimes occurring in the aged.' As the concept of distorted, unconscious perception is similar to the problem of near vision, 
